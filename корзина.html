@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Корзина</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Ваша корзина</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="Каталог.html">Каталог</a></li>
+                <li><a href="О нас.html">О нас</a></li>
+                <li><a href="корзина.html">Корзина</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="cart">
+        <table>
+            <thead>
+                <tr>
+                    <th>Товар</th>
+                    <th>Цена</th>
+                    <th>Количество</th>
+                    <th>Сумма</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Техника 1</td>
+                    <td>$999</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$999</td>
+                </tr>
+                <tr>
+                    <td>Техника 2</td>
+                    <td>$799</td>
+                    <td><input type="number" value="2"></td>
+                    <td>$1798</td>
+                </tr>
+                <tr>
+                    <td>Техника 3</td>
+                    <td>$1499</td>
+                    <td><input type="number" value="3"></td>
+                    <td>$3297</td>
+                </tr>
+                <tr>
+                    <td>Техника 4</td>
+                    <td>$1500</td>
+                    <td><input type="number" value="4"></td>
+                    <td>$4797</td>
+                </tr>
+                <tr>
+                    <td>Техника 5</td>
+                    <td>$2000</td>
+                    <td><input type="number" value="5"></td>
+                    <td>$6797</td>  
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">Итого:</td>
+                    <td>$6797</td>
+                </tr>
+            </tfoot>
+        </table>
+        <button>Оформить заказ</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Техно Мастер</p>
+    </footer>
+</body>
+</html>
